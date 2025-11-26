@@ -106,15 +106,22 @@
     width: 40%;
 }
 
+.title-status {
+    display: inline-flex;     
+    align-items: center;      
+    gap: 10px;               
+}
+
 .card-right {
     width: 55%;
     padding-right: 10px;
 }
 
 /* TEXT STYLES */
-.card-left h3 {
+.title-status h3 {
     font-size: 20px;
     font-weight: 900;
+     margin: 0;
 }
 
 .status {
@@ -123,7 +130,7 @@
     border-radius: 12px;
     font-size: 12px;
     font-weight: 600;
-    margin: 10px 0;
+    margin: 0;
 }
 
 .offline {
@@ -133,6 +140,7 @@
 
 .schedule {
     font-weight: 500;
+    padding-top: 5px;
 }
 
 .hosts {
@@ -151,6 +159,11 @@
     background-color: #1C5186;
     margin-top: 75px;
     height: 75px;
+    position: fixed;     /* fixes it relative to viewport */
+    bottom: 0;           /* stick to bottom */
+    left: 0;             /* align left */
+    width: 100%;         /* full width */
+    z-index: 100; 
 }
 
 .footer footer {
