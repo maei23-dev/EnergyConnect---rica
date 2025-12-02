@@ -573,3 +573,12 @@ h4 {
     margin-top: 10px;
     font-size: 12px;
 }
+
+.category-container {
+    background-color: rgba(116, 114, 114, 1);
+    padding: 5px 15px;
+    width: auto;
+    height: 15px;
+    border-radius: 50px;
+    color: white;
+}
